@@ -1,0 +1,45 @@
+#changeimage{
+    background-image:url("room1.jpg");
+    height:400px;
+    padding-top:30px;
+    background-size:100%;
+    background-position:center;
+    opacity: 0.8;
+    animation:banner;
+    animation-iteration-count:infinite;
+    animation-duration:15s;
+    -webkit-transform: scale(0.999);
+     transform: scale(0.999);
+     border-bottom:10px solid black;
+    
+ }
+ @keyframes banner{
+    25%{background-image:url('room2.jpg');}
+    50%{background-image:url('room3.jpg');}
+    75%{background-image:url('room4.jpg');}
+    100%{background-image:url('room1.jpg');}
+   }
+.container{
+    margin-top:60px;
+}
+.wel{
+   text-transform: uppercase;
+   font-size: 30px;
+   text-decoration: underline;
+   text-decoration-style: wavy;
+   text-decoration-color:  #d8924b;
+   font-family: 'Cormorant', serif;
+}
+.welheader{
+    margin-top:20px;
+}
+.welpara{
+    margin-top:20px;
+}
+.learn{
+    background-color:#d88736; 
+    color:white;
+}
+.learn1{
+    color: white;
+}

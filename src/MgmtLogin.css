@@ -1,0 +1,8 @@
+.error
+{
+    text-align: left;
+    color: red;
+    text-transform: uppercase;
+    margin-left:50px ;
+    font-weight:bold;
+}

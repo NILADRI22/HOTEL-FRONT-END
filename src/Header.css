@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+.header {
+    height: 65px;
+    background-color: #b99470;
+  }
+  .header__logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: -18px;
+    margin-right:00px;
+    justify-content: space-evenly
+  
+ }
+ #ras
+ {
+   margin-left:400px;
+ }
+  .header__optionLineOne {
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Mulish', sans-serif;
+  }
+ 
+  .header__option {
+    color: white;
+  }
+  .navbar .nav-item:hover .nav-link
+  { color: darkorange;  }
+ .qwerty{
+  font-size: 40px;
+  font-weight: 800;
+  font-family: 'Mulish', sans-serif;
+  color:white;
+  background-color:black;
+
+ }
+ label{
+  font-size: 16px;
+  font-weight: 800;
+  font-family: 'Mulish', sans-serif;
+ }
